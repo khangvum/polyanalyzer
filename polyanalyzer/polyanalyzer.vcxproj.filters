@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\0. utilities">
+      <UniqueIdentifier>{ddd9d59a-844c-4f6e-9cb1-a994b7cd88aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1. arguments">
+      <UniqueIdentifier>{e5b1fdfd-ea21-4a85-b259-4628ca1e6815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2. solution">
+      <UniqueIdentifier>{493091d7-3de7-4d60-b171-2c077cc9e649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3. report">
+      <UniqueIdentifier>{1a57bf0a-3db3-4609-bbf1-42e0fdafcf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\0. utilities">
+      <UniqueIdentifier>{bb7ace14-771b-40c9-a159-d3b69f5acb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1. arguments">
+      <UniqueIdentifier>{a2bcffe5-54bf-45d8-805e-d03485d201db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2. solution">
+      <UniqueIdentifier>{c8904c9f-7379-4521-af4c-85f24e010d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3. report">
+      <UniqueIdentifier>{79720c64-5972-44bb-a854-3b22bcbf3d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\polyanalyzer">
+      <UniqueIdentifier>{1b2c2f8c-b620-41e7-886d-5a389190b9ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="polyanalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\0. utilities\src\constants.cpp">
+      <Filter>Source Files\0. utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\0. utilities\src\system.cpp">
+      <Filter>Source Files\0. utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\1. arguments\src\args.cpp">
+      <Filter>Source Files\1. arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\1. arguments\src\Argument.cpp">
+      <Filter>Source Files\1. arguments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\2. solution\src\cubic.cpp">
+      <Filter>Source Files\2. solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\2. solution\src\Function.cpp">
+      <Filter>Source Files\2. solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\2. solution\src\linear.cpp">
+      <Filter>Source Files\2. solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\2. solution\src\quadratic.cpp">
+      <Filter>Source Files\2. solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\2. solution\src\quartic.cpp">
+      <Filter>Source Files\2. solution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3. report\src\report_utilities.cpp">
+      <Filter>Source Files\3. report</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3. report\src\summary.cpp">
+      <Filter>Source Files\3. report</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3. report\src\summary_utilities.cpp">
+      <Filter>Source Files\3. report</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3. report\src\verbose.cpp">
+      <Filter>Source Files\3. report</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3. report\src\verbose_utilities.cpp">
+      <Filter>Source Files\3. report</Filter>
+    </ClCompile>
+    <ClCompile Include="..\0. utilities\src\helper.cpp">
+      <Filter>Source Files\0. utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\0. utilities\inc\constants.hpp">
+      <Filter>Header Files\0. utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0. utilities\inc\system.hpp">
+      <Filter>Header Files\0. utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\1. arguments\inc\args.hpp">
+      <Filter>Header Files\1. arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\1. arguments\inc\Argument.hpp">
+      <Filter>Header Files\1. arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2. solution\inc\Function.hpp">
+      <Filter>Header Files\2. solution</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\inc\report_utilities.hpp">
+      <Filter>Header Files\3. report</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\inc\summary.hpp">
+      <Filter>Header Files\3. report</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\inc\summary_utilities.hpp">
+      <Filter>Header Files\3. report</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\inc\verbose.hpp">
+      <Filter>Header Files\3. report</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\inc\verbose_utilities.hpp">
+      <Filter>Header Files\3. report</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3. report\report.hpp">
+      <Filter>Header Files\polyanalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0. utilities\utilities.hpp">
+      <Filter>Header Files\polyanalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\1. arguments\arguments.hpp">
+      <Filter>Header Files\polyanalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2. solution\solution.hpp">
+      <Filter>Header Files\polyanalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="polyanalyzer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0. utilities\inc\helper.hpp">
+      <Filter>Header Files\0. utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
