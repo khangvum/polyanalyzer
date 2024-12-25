@@ -14,7 +14,7 @@
 <li>Analyze functions of degree 1 to 4 (linear to quartic).</li>
   <li>Display the variation table of the function.</li>
   <li>With the <code>-v</code> (verbose) switch, calculate and display:
-    <ol>
+    <ol type="1">
       <li>x-intercepts</li>
       <li>y-intercept</li>
       <li>Domain</li>
