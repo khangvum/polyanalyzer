@@ -7,12 +7,14 @@ A Windows console application that analyzes ***linear***, ***quadratic***, ***cu
 -   Analyze functions of degree 1 to 4 (***linear*** to ***quartic***).
 -   Display the ***variation table*** of the function.
 -   With the verbose (`-v`) switch, calculate and display:
+    
     1.  ***x-intercepts***
     2.  ***y-intercept***
     3.  ***Domain***
     4.  ***Range***
     5.  ***Extrema*** (Minima & Maxima)
     6.  ***Symmetry*** (Even, Odd, or neither)
+
 -   Simple, fast, and lightweight ***console-based*** interface.
 
 ## Usage
