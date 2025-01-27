@@ -1,46 +1,33 @@
-﻿<h1 align="left">polyanalyzer</h1>
+﻿# polyanalyzer
 
-###
+A Windows console application that analyzes ***linear***, ***quadratic***, ***cubic***, and ***quartic*** functions. It generates the ***variation table*** of the function and can provide detailed ***mathematical insights***.
 
-<p align="left">A Windows console application that analyzes linear, quadratic, cubic, and quartic functions. It generates the variation table of the function and can provide detailed mathematical insights.</p>
+## Features
 
-###
+-   Analyze functions of degree 1 to 4 (***linear*** to ***quartic***).
+-   Display the ***variation table*** of the function.
+-   With the verbose (`-v`) switch, calculate and display:
+    1.  ***x-intercepts***
+    2.  ***y-intercept***
+    3.  ***Domain***
+    4.  ***Range***
+    5.  ***Extrema*** (Minima & Maxima)
+    6.  ***Symmetry*** (Even, Odd, or neither)
+-   Simple, fast, and lightweight ***console-based*** interface.
 
-<h2 align="left">Features</h2>
+## Usage
 
-###
-
-<ul>
-<li>Analyze functions of degree 1 to 4 (linear to quartic).</li>
-  <li>Display the variation table of the function.</li>
-  <li>With the <code>-v</code> (verbose) switch, calculate and display:
-    <ol type="1">
-      <li>x-intercepts</li>
-      <li>y-intercept</li>
-      <li>Domain</li>
-      <li>Range</li>
-      <li>Extrema (Minima & Maxima)</li>
-      <li>Symmetry (Even, Odd, or neither)</li>
-    </ol>
-  </li>
-  <li>Simple, fast, and lightweight console-based interface.</li>
-</ul>
-
-###
-
-<h2 align="left">Usage</h2>
-
-###
-
-<pre style="font-family: Consolas, monospace; font-size: 14px; background-color: #eee; padding: 15px; border: 1px solid #ccc; border-radius: 5px; white-space: pre; color: #333;">
-        Usage: polyanalyzer [--help] [-hv] [a] [b] [c] [d] [e]
-        switches:
-                h       help
-                v       verbose
-        arguments:
-                a       coefficient of x⁴
-                b       coefficient of x³
-                c       coefficient of x²
-                d       coefficient of x
-                e       indepedent coefficient
-</pre>
+<!-- <pre style="font-family: Consolas, monospace; font-size: 14px; background-color: #eee; padding: 15px; border: 1px solid #ccc; border-radius: 5px; white-space: pre; color: #333;"> -->
+```cmd
+Usage: polyanalyzer [--help] [-hv] [a] [b] [c] [d] [e]
+switches:
+        h       help
+        v       verbose
+arguments:
+        a       coefficient of x⁴
+        b       coefficient of x³
+        c       coefficient of x²
+        d       coefficient of x
+        e       indepedent coefficient
+```
+<!-- </pre> -->
