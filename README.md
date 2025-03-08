@@ -36,8 +36,8 @@ arguments:
 
 ### Without the verbose (`-v`) switch (Default behavior):
 
-![Default Behavior](!docs/Default%20Behavior.png =70%x70%)
+![Default Behavior](!docs/Default%20Behavior.png)
 
 ### With the verbose (`-v`) switch:
 
-![Verbose](!docs/Verbose.png =70%x70%)
+![Verbose](!docs/Verbose.png)
