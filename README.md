@@ -19,7 +19,6 @@ A Windows console application that analyzes ***linear***, ***quadratic***, ***cu
 
 ## Usage
 
-<!-- <pre style="font-family: Consolas, monospace; font-size: 14px; background-color: #eee; padding: 15px; border: 1px solid #ccc; border-radius: 5px; white-space: pre; color: #333;"> -->
 ```cmd
 Usage: polyanalyzer [--help] [-hv] [a] [b] [c] [d] [e]
 switches:
@@ -30,6 +29,15 @@ arguments:
         b       coefficient of x³
         c       coefficient of x²
         d       coefficient of x
-        e       indepedent coefficient
+        e       independent coefficient
 ```
-<!-- </pre> -->
+
+## Demonstration
+
+### Without the verbose (`-v`) switch (Default behavior):
+
+![Default Behavior](!docs/Default%20Behavior.png =70%x70%)
+
+### With the verbose (`-v`) switch:
+
+![Verbose](!docs/Verbose.png =70%x70%)
