@@ -204,15 +204,17 @@ void print_zero_row(const map<double, int>& roots, size_t left_width, size_t uni
 	// Print the zero values row
 	streamsize value_width{ 0 };
 	for (auto it{ begin(roots) }; it != end(roots); ++it) {
+		//set_color(RED); cout << UTF8_string(unit_scale - (value_width - value_width / 2) - 1, dash);
 		streamsize previous_value_width{ value_width };
+		
+		set_color(RED);
+		cout << UTF8_string(unit_scale - (previous_value_width - previous_value_width / 2) - value_width / 2 - (value_width + 1), dash);
+
 		value_width = 1;
 
-		set_color(RED);
-		cout << UTF8_string(unit_scale - (previous_value_width - previous_value_width / 2) - value_width / 2, dash);
-
 		set_color(it->second == 0 ? CYAN : it->second == 1 ? WHITE : RED);
-		cout << (it->second > -1 ? "0" : dash);
+		cout << (it->second > -1 ? " 0 " : UTF8_string(3, dash));
 	}
-	set_color(RED); cout << UTF8_string(unit_scale - (value_width - value_width / 2), dash) << "> y=0";
+	set_color(RED); cout << UTF8_string(unit_scale - (value_width - value_width / 2) - 1, dash) << "> y=0";
 	set_color(WHITE);
 }
