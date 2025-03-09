@@ -34,10 +34,10 @@ arguments:
 
 ## Demonstration
 
-### Without the verbose (`-v`) switch (Default behavior):
+### Default Behavior
 
 ![Default Behavior](!docs/Default%20Behavior.png)
 
-### With the verbose (`-v`) switch:
+### With the Verbose (`-v`) Switch:
 
 ![Verbose](!docs/Verbose.png)
