@@ -87,7 +87,7 @@ void print_title() {
 	atexit(restore_codepage);
 
 	set_color(INVERSE_GREY);
-	cout << " polyanalyzer 2.0.0 "s << copyright << "2024, Khang Vu "s;
+	cout << " polyanalyzer 1.0.0 "s << copyright << "2024-2025, Khang Vu "s;
 	set_color(WHITE); cout << "\n\n";
 }
 
