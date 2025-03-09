@@ -40,6 +40,9 @@
     <Filter Include="Header Files\polyanalyzer">
       <UniqueIdentifier>{1b2c2f8c-b620-41e7-886d-5a389190b9ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{60962975-0a1e-4621-8470-1c4d1be090ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="polyanalyzer.cpp">
@@ -144,5 +147,13 @@
   <ItemGroup>
     <None Include="..\.gitignore" />
     <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\!docs\Default Behavior.png">
+      <Filter>Documents</Filter>
+    </Image>
+    <Image Include="..\!docs\Verbose.png">
+      <Filter>Documents</Filter>
+    </Image>
   </ItemGroup>
 </Project>
