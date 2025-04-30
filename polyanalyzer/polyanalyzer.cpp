@@ -24,6 +24,7 @@
 #include "polyanalyzer.hpp"
 #include <iostream>
 using namespace std;
+using namespace polyanalyzer;
 
 int main(int argc, char* argv[])
 {

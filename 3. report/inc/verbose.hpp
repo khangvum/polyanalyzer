@@ -24,46 +24,48 @@
 
 #include "../../2. solution/solution.hpp"
 
-// 1. x intersections (Roots)
-/*	\brief		Print the x intersections of the polynomial
-	\param		const Function& - The function Function object
-*/
-void print_x_intersections(const Function& function);
+namespace polyanalyzer {
+	// 1. x intersections (Roots)
+	/*	\brief		Print the x intersections of the polynomial
+		\param		const Function& - The function Function object
+	*/
+	void print_x_intersections(const Function& function);
 
-// 2. y intersection
-/*	\brief		Print the y intersection of the polynomial
-	\param		const Function& - The function Function object
-*/
-void print_y_intersection(const Function& function);
+	// 2. y intersection
+	/*	\brief		Print the y intersection of the polynomial
+		\param		const Function& - The function Function object
+	*/
+	void print_y_intersection(const Function& function);
 
-// 3. Domain
-/*	\brief		Print the domain of the polynomial
-*/
-void print_domain();
+	// 3. Domain
+	/*	\brief		Print the domain of the polynomial
+	*/
+	void print_domain();
 
-// 4. Range
-/*	\brief		Print the range of the polynomial
-	\param		const Function& - The function Function object
-				const Function& - The derivative Function object
-*/
-void print_range(const Function& function, const Function& derivative);
+	// 4. Range
+	/*	\brief		Print the range of the polynomial
+		\param		const Function& - The function Function object
+					const Function& - The derivative Function object
+	*/
+	void print_range(const Function& function, const Function& derivative);
 
-// 5. Extrema (Minima & Maxima)
-/*	\brief		Print the extrema (minima & maxima) of the polynomial
-	\param		const Function& - The function Function object
-				const Function& - The derivative Function object
-*/
-void print_min_max(const Function& function, const Function& derivative);
+	// 5. Extrema (Minima & Maxima)
+	/*	\brief		Print the extrema (minima & maxima) of the polynomial
+		\param		const Function& - The function Function object
+					const Function& - The derivative Function object
+	*/
+	void print_min_max(const Function& function, const Function& derivative);
 
-// 6. Even & odd symmetry
-/*	\brief		Print the even & odd symmetry of the polynomial
-	\param		const Function& - The function Function object
-				const Function& - The derivative Function object
-*/
-void print_even_odd(const Function& function);
+	// 6. Even & odd symmetry
+	/*	\brief		Print the even & odd symmetry of the polynomial
+		\param		const Function& - The function Function object
+					const Function& - The derivative Function object
+	*/
+	void print_even_odd(const Function& function);
 
-/*	\brief		Print the verbose of the polynomial
-	\param		const Function& - The function Function object
-				const Function& - The derivative Function object
-*/
-void print_verbose(const Function& function, const Function& derivative);
+	/*	\brief		Print the verbose of the polynomial
+		\param		const Function& - The function Function object
+					const Function& - The derivative Function object
+	*/
+	void print_verbose(const Function& function, const Function& derivative);
+}	// End of namespace polyanalyzer

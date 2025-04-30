@@ -27,30 +27,32 @@
 #include <algorithm>
 using namespace std;
 
-// Methods
-void Function::solve() {
-	auto [a, b, c, d, e] { coefficients_ };
+namespace polyanalyzer {
+	// Methods
+	void Function::solve() {
+		auto [a, b, c, d, e] { coefficients_ };
 
-	// Solve the function
-	if (abs(a) > epsilon)
-		solve_quartic(a, b, c, d, e);
-	else if (abs(b) > epsilon)
-		solve_cubic(b, c, d, e);
-	else if (abs(c) > epsilon)
-		solve_quadratic(c, d, e);
-	else
-		solve_linear(d, e);
+		// Solve the function
+		if (abs(a) > epsilon)
+			solve_quartic(a, b, c, d, e);
+		else if (abs(b) > epsilon)
+			solve_cubic(b, c, d, e);
+		else if (abs(c) > epsilon)
+			solve_quadratic(c, d, e);
+		else
+			solve_linear(d, e);
 
-	// Sort the roots and remove duplicates
-	sort(begin(roots_), end(roots_));
-	roots_.erase(unique(begin(roots_), end(roots_)), end(roots_));
-}
+		// Sort the roots and remove duplicates
+		sort(begin(roots_), end(roots_));
+		roots_.erase(unique(begin(roots_), end(roots_)), end(roots_));
+	}
 
-Function Function::derivative() const {
-	array<double, 5> deri_coefficients{};
+	Function Function::derivative() const {
+		array<double, 5> deri_coefficients{};
 
-	for (size_t i{ 0 }; i < deri_coefficients.size() - 1; ++i)
-		deri_coefficients[i + 1] = coefficients_[i] * (coefficients_.size() - i - 1);
+		for (size_t i{ 0 }; i < deri_coefficients.size() - 1; ++i)
+			deri_coefficients[i + 1] = coefficients_[i] * (coefficients_.size() - i - 1);
 
-	return Function(deri_coefficients);
-}
+		return Function(deri_coefficients);
+	}
+}	// End of namespace polyanalyzer

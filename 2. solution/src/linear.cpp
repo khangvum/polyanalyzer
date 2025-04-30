@@ -26,9 +26,11 @@
 #include <cmath>
 using namespace std;
 
-void Function::solve_linear(double a, double b) {
-	if (abs(a) < epsilon)
-		return;
+namespace polyanalyzer {
+	void Function::solve_linear(double a, double b) {
+		if (abs(a) < epsilon)
+			return;
 
-	roots_.push_back(-b / a);
-}
+		roots_.push_back(-b / a);
+	}
+}	// End of namespace polyanalyzer

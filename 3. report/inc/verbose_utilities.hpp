@@ -25,14 +25,16 @@
 #include "../../2. solution/solution.hpp"
 #include <list>
 
-/*	\brief		Get the value table of the derivative
-	\param		const Function&		- The derivative Function object
-	\return		std::list<double>	- The value table
-*/
-std::list<double> get_value_table(const Function& derivative);
+namespace polyanalyzer {
+	/*	\brief		Get the value table of the derivative
+		\param		const Function&		- The derivative Function object
+		\return		std::list<double>	- The value table
+	*/
+	std::list<double> get_value_table(const Function& derivative);
 
-/*	\brief		Print the extrema of the polynomial
-	\param		const std::vector<std::pair<double, double>>&	- The extrema of the polynomial
-				const std::string&								- The title to be printed
-*/
-void print_extrema(const std::vector<std::pair<double, double>>& extrema, const std::string& title);
+	/*	\brief		Print the extrema of the polynomial
+		\param		const std::vector<std::pair<double, double>>&	- The extrema of the polynomial
+					const std::string&								- The title to be printed
+	*/
+	void print_extrema(const std::vector<std::pair<double, double>>& extrema, const std::string& title);
+}	// End of namespace polyanalyzer

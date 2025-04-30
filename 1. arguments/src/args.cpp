@@ -26,16 +26,18 @@
 #include <iostream>
 using namespace std;
 
-void print_help() {
-	SetConsoleOutputCP(CP_UTF8);
-	cout << "\tUsage: polyanalyzer [--help] [-hv] [a] [b] [c] [d] [e]\n"s
-		<< "\tswitches:\n"s
-		<< "\t\th\thelp\n"s
-		<< "\t\tv\tverbose\n"s
-		<< "\targuments:\n"s
-		<< "\t\ta\tcoefficient of x"s << superscripts.at(4) << "\n"
-		<< "\t\tb\tcoefficient of x"s << superscripts.at(3) << "\n"
-		<< "\t\tc\tcoefficient of x"s << superscripts.at(2) << "\n"
-		<< "\t\td\tcoefficient of x\n"s
-		<< "\t\te\tindepedent coefficient\n"s;
-}
+namespace polyanalyzer {
+	void print_help() {
+		SetConsoleOutputCP(CP_UTF8);
+		cout << "\tUsage: polyanalyzer [--help] [-hv] [a] [b] [c] [d] [e]\n"s
+			<< "\tswitches:\n"s
+			<< "\t\th\thelp\n"s
+			<< "\t\tv\tverbose\n"s
+			<< "\targuments:\n"s
+			<< "\t\ta\tcoefficient of x"s << superscripts.at(4) << "\n"
+			<< "\t\tb\tcoefficient of x"s << superscripts.at(3) << "\n"
+			<< "\t\tc\tcoefficient of x"s << superscripts.at(2) << "\n"
+			<< "\t\td\tcoefficient of x\n"s
+			<< "\t\te\tindepedent coefficient\n"s;
+	}
+}	// End of namespace polyanalyzer
