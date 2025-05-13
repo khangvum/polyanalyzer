@@ -1,4 +1,4 @@
-﻿# polyanalyzer
+﻿# Polynomial Analyzer 
 
 A Windows console application that analyzes **_linear_**, **_quadratic_**, **_cubic_**, and **_quartic_** functions. It generates the **_variation table_** of the function and can provide detailed **_mathematical insights_**.
 
