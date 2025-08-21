@@ -1,9 +1,9 @@
 #pragma once
 /*! \file	    solution.hpp
 	\brief	    <solution> header file
-	\author	    Khang Vu
+	\author	    Manh Khang Vu
 	\date	    2024-12-21
-	\copyright	Khang Vu
+	\copyright	Manh Khang Vu
 
   =============================================================
   Revision History
@@ -18,7 +18,7 @@
 
   =============================================================
 
-  Copyright Khang Vu
+  Copyright Manh Khang Vu
 
   ============================================================= */
 

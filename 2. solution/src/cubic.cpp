@@ -1,8 +1,8 @@
 /*! \file	    cubic.cpp
 	\brief	    Definition for cubic equation solving function
-	\author	    Khang Vu
+	\author	    Manh Khang Vu
 	\date	    2024-12-21
-	\copyright	Khang Vu
+	\copyright	Manh Khang Vu
 
   =============================================================
   Revision History
@@ -17,7 +17,7 @@
 
   =============================================================
 
-  Copyright Khang Vu
+  Copyright Manh Khang Vu
 
   ============================================================= */
 
