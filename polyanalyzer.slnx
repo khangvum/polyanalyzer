@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="polyanalyzer/polyanalyzer.vcxproj" />
+  <Project Path="polyanalyzer/polyanalyzer.vcxproj" Id="81005d05-0bc5-4a02-8852-3598df3f3e59" />
 </Solution>
