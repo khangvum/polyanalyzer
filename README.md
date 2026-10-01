@@ -2,6 +2,9 @@
 
 A Windows console application that analyzes **_linear_**, **_quadratic_**, **_cubic_**, and **_quartic_** functions. This program generates the **_variation table_** of the function and can provide detailed **_mathematical insights_**.
 
+[![C++ Release Build](https://github.com/khangvum/polyanalyzer/actions/workflows/release.yml/badge.svg)](https://github.com/khangvum/polyanalyzer/actions/workflows/release.yml)
+[![Security Scan](https://github.com/khangvum/polyanalyzer/actions/workflows/security.yml/badge.svg)](https://github.com/khangvum/polyanalyzer/actions/workflows/security.yml)
+
 ## Features
 
 - Analyze functions of degree 1 to 4 (**_linear_** to **_quartic_**).
